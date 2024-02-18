@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Movies-World/static/css/main.06df712a.css",
+    "main.js": "/Movies-World/static/js/main.1f71e397.js",
+    "static/js/453.aa19233d.chunk.js": "/Movies-World/static/js/453.aa19233d.chunk.js",
+    "index.html": "/Movies-World/index.html",
+    "static/media/search.svg": "/Movies-World/static/media/search.3af80ee6cd4cef973810f74b91e10f80.svg",
+    "main.06df712a.css.map": "/Movies-World/static/css/main.06df712a.css.map",
+    "main.1f71e397.js.map": "/Movies-World/static/js/main.1f71e397.js.map",
+    "453.aa19233d.chunk.js.map": "/Movies-World/static/js/453.aa19233d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06df712a.css",
+    "static/js/main.1f71e397.js"
+  ]
+}
