@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Movies-World/static/css/main.b8d3353f.css",
-    "main.js": "/Movies-World/static/js/main.62a9cc57.js",
+    "main.css": "/Movies-World/static/css/main.2529e80d.css",
+    "main.js": "/Movies-World/static/js/main.fff56ec9.js",
     "static/js/453.aa19233d.chunk.js": "/Movies-World/static/js/453.aa19233d.chunk.js",
     "index.html": "/Movies-World/index.html",
     "static/media/search.svg": "/Movies-World/static/media/search.3af80ee6cd4cef973810f74b91e10f80.svg",
-    "main.b8d3353f.css.map": "/Movies-World/static/css/main.b8d3353f.css.map",
-    "main.62a9cc57.js.map": "/Movies-World/static/js/main.62a9cc57.js.map",
+    "main.2529e80d.css.map": "/Movies-World/static/css/main.2529e80d.css.map",
+    "main.fff56ec9.js.map": "/Movies-World/static/js/main.fff56ec9.js.map",
     "453.aa19233d.chunk.js.map": "/Movies-World/static/js/453.aa19233d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d3353f.css",
-    "static/js/main.62a9cc57.js"
+    "static/css/main.2529e80d.css",
+    "static/js/main.fff56ec9.js"
   ]
 }
