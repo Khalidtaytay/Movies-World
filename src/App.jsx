@@ -5,7 +5,10 @@ import Movie from './Components/MovieCard';
 
 
 
+
 const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=10cb9db9';
+fetch('https://www.omdbapi.com/?i=tt3896198&apikey=10cb9db9')
+ .then((resolved)=>resolved.json())
 
 export default function App (){
   const [movies,setMovies]= useState([]);
@@ -18,7 +21,6 @@ export default function App (){
   useEffect (()=>{
     searchMovies('superman');
   },[]);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     let menubar = document.querySelector('.menu');
@@ -47,10 +49,9 @@ export default function App (){
         searchMovies(searchTerm)
     }
   }
-
   return(
-    <>
-      <div className="bar">
+   <>
+    <div className="bar">
         <div className="logo">MoviesWorld</div>
         <ul className="menu">
           <li className="menuItem">Movies</li>
@@ -66,6 +67,7 @@ export default function App (){
       </div>
       <div className="all">
            <div className="app">
+            <div className="search-title">
                   <h1>MoviesWorld</h1>
                   <div className="search">
                     <input placeholder="Search for movies" 
@@ -75,17 +77,20 @@ export default function App (){
                     />
                     <img src={SearchIcon} alt="" onClick={()=>{searchMovies(searchTerm)}} />
                   </div>
+
+            </div>
                 
                     {movies&&movies.length > 0 ? ( <div className="container">
-                     {movies.map(movie=>{return(<Movie movie={movie}/>)})} 
+                     {movies.map(movie=>{return ( <><div><Movie movie={movie}/></div></>)})} 
                       </div>) : 
                       <div className="empty">
                          <h2>No movie found !. Please entre Name of a movie</h2> 
                          </div>}
                     
-           </div>   
+           </div>  
       </div>
-    </>
+  </>
+        
 
-  )
+)
 };
